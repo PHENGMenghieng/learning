@@ -1,0 +1,63 @@
+# print
+firstname = "bro"
+print (firstname)
+print (f"name is" ,{firstname})
+print (f"name is {firstname}")
+
+# f string
+password = "99daysintheforest"
+print (f"your password is {password}")
+
+# integers
+age = 18
+print (f"I am {age} years old")
+
+# float
+items = 3.5
+print (f"I am buying {items} loaf of bread")
+
+# boolean true or false part 1
+student = "third year"
+iamstudent = True
+if iamstudent is True:
+    print (f"you are a student and a {student} at that")
+
+# boolean true or false part 2
+student1 = True
+if student1:
+    print (f"you are a student")
+else:
+    print (f"you are not a student")
+
+student2 = False
+if student2:
+    print (f"you are a student")
+else:
+    print (f"you are not a student")
+
+# variable type
+name = "hieng"
+age = 18
+cost = 15.5
+a_student = True
+print (type(name))  ## string
+print (type(age))  ## integers
+print (type(cost))  ## float
+print (type(a_student))  ## boolean
+
+# converting vairable (notice: str cannot be added with float, double or integers)(str can only work with str)
+name1 = "hieng"
+name_none = ""
+age1 = 18
+cost1 = 15.5
+a_student1 = True
+name2 = str(name1)
+print (type(name2))
+age2 = str(age1)
+print (type(age2))
+age3 = float(age1)
+print (type(age3))
+name2 = bool(name1)
+print (name2)
+name3 = bool(name_none)
+print (name3)
